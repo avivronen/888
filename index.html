@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>888</title>
+    <script src="./src/Jackpot.js"></script>
+    <script src="./src/Slider.js"></script>
+    <script src="./sum.js"></script>
+</head>
+<body>
+
+<div id="Main" class="Content">
+    <div id="Slider1">
+        <script >
+            Slider('Slider1', [
+                './images/888casino.jpg',
+                './images/888ladies.jpg',
+                './images/888poker.jpg',
+                './images/888sport.jpg',
+            ], 3);
+        </script>
+    </div>
+
+    <div id="Jackpot1" align="center">
+        <script>
+            Jackpot('Jackpot1', 'http://feedsapi.safe-installation.com/api/GetJackpotTotalAmount?CurrencyCode=USD&currencySymbol=$&BrandID=0');
+        </script>
+    </div>
+
+</div>
+
+
+
+
+
+
+</body>
+
+
+</html>
